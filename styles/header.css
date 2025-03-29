@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+    background: #00030C;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+}
+.header-logo{
+    height: 50%;
+}
+.button,
+.header-button{
+    text-decoration: none;
+    background: var(--button-background-color);
+    padding: 0.5em 1.5em;
+    color: var(--text-primary-color);
+    border-radius: 5px;
+}
+
+.button:hover{
+    background: var(--button-hover-background-color);
+    transition: 0.3s;
+    cursor: pointer;
+}

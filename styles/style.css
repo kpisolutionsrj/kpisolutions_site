@@ -1,0 +1,24 @@
+@import url("/styles/header.css");
+@import url("/styles/hero.css");
+@import url("/styles/why.css");
+@import url("/styles/bi.css");
+
+:root{
+    --background-color: linear-gradient(179deg, #00030C 43.03%, #001D72 262.8%);    
+    --text-primary-color: #FFFFFF;
+    --text-secondary-color: #8C8C8C;
+    --font-size: 16px;
+    --button-background-color: #2B8BAE;
+    --button-hover-background-color: #59C2E8;
+    --text-attention-color: #59C2E8;
+    --font-primary: "Inter", sans-serif;
+    --brackground-card-why: linear-gradient(114deg, #00030C 6.25%, #001D72 295.15%);
+}
+
+body{
+    background: var(--background-color);
+    background-repeat: no-repeat;
+    color: var(--text-primary-color);
+    font-size: var(--font-size);
+    font-family: var(--font-primary); 
+}

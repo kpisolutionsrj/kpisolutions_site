@@ -1,0 +1,36 @@
+.hero {
+    height: calc(100vh - 60px);
+    padding: 0 2em;
+    text-align: center;
+    margin-top: 60px;
+}
+.hero-image{
+    margin-top: 1em;
+    width: 100%;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+}
+.hero-title{
+    font-size: 3em;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+.attention{
+    color: var(--text-attention-color);
+}
+.hero-description{
+    font-size: 1em;
+    margin: 0.5em 0;
+    color: var(--text-secondary-color);
+    line-height: normal;
+}
+.hero-button{
+    margin-top: 0.8em;
+    padding: 1em 2em;
+}
+.hero-button-transparent{
+    background: transparent;
+    border: solid 1px var(--text-primary-color);
+}

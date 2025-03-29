@@ -1,0 +1,43 @@
+.why{
+    padding: 0 2em;
+}
+.why-list{
+    margin-top: 2em;
+}
+.why-title{
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0.5em 0;
+    text-align: center;
+}
+.why-description{
+    font-size: 1em;
+    margin: 0.5em 0;
+    color: var(--text-secondary-color);
+    line-height: normal;
+    text-align: center;
+}
+.why-cards{
+    border: 1px solid #646464;
+    border-radius: 5px;
+    background: var(--brackground-card-why);
+    padding: 1em;
+    margin-bottom: 1em;
+}
+.why-card-icon{
+    background: #061828;
+    padding: 0.5em;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+.why-card-title{
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+.why-card-description{
+    font-size: 1em;
+    margin: 0.5em 0;
+    color: var(--text-secondary-color);
+    line-height: normal;
+}

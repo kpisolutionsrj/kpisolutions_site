@@ -1,0 +1,23 @@
+.bi {
+    padding: 0 2em;
+    text-align: center;
+    margin-top: 60px;
+}
+.bi-image{
+    margin-top: 1em;
+    width: 70%;
+}
+.bi-title{
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+.bi-description{
+    font-size: 1em;
+    margin: 0.5em 0; 
+    line-height: normal;
+}
+.break{
+    margin-bottom: 1em;
+    color: var(--text-secondary-color);
+}
