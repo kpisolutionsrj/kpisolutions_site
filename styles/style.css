@@ -2,6 +2,7 @@
 @import url("/styles/hero.css");
 @import url("/styles/why.css");
 @import url("/styles/bi.css");
+@import url("/styles/presentation.css");
 
 :root{
     --background-color: linear-gradient(179deg, #00030C 43.03%, #001D72 262.8%);    
