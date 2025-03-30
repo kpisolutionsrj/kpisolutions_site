@@ -3,6 +3,9 @@
     padding: 0 2em;
     text-align: center;
     margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .hero-image{
     margin-top: 1em;
@@ -13,7 +16,7 @@
     flex-direction: column;
 }
 .hero-title{
-    font-size: 3em;
+    font-size: 32px;
     font-weight: 700;
     margin: 0.5em 0;
 }
