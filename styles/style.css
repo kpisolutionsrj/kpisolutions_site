@@ -3,6 +3,7 @@
 @import url("/styles/why.css");
 @import url("/styles/bi.css");
 @import url("/styles/presentation.css");
+@import url("/styles/tecnologias.css");
 
 :root{
     --background-color: linear-gradient(179deg, #00030C 43.03%, #001D72 262.8%);    
@@ -14,6 +15,7 @@
     --text-attention-color: #59C2E8;
     --font-primary: "Inter", sans-serif;
     --brackground-card-why: linear-gradient(114deg, #00030C 6.25%, #001D72 295.15%);
+    --background-card-technologies: linear-gradient(180deg, #10101E 0%, #292A36 100%);
 }
 
 body{

@@ -1,0 +1,34 @@
+.technologies{
+    padding: 0 2em;
+    text-align: center;
+}
+.technologies-title{
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-top: 2em;
+}
+.technologies-description{
+    font-size: 1em;
+    margin: 0.5em 0; 
+    line-height: normal;
+    color: var(--text-secondary-color);
+}
+.technologies-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+.technologies-item{
+    background: var(--background-card-technologies);
+    padding: 1em;
+    border-radius: 7px;
+    border: 2px solid var(--text-attention-color);
+    width: 200px;
+    height: 100px;
+    align-content: center;
+}
+.technologies-item img{
+    height: 80%;
+    width: 80%;
+}
