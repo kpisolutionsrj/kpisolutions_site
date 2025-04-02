@@ -1,27 +1,40 @@
-@import url("/styles/header.css");
-@import url("/styles/hero.css");
-@import url("/styles/why.css");
-@import url("/styles/bi.css");
-@import url("/styles/presentation.css");
-@import url("/styles/tecnologias.css");
-
+@import url(/styles/hero.css);
+@import url(/styles/header.css);
+@import url(/styles/about.css);
 :root{
-    --background-color: linear-gradient(179deg, #00030C 43.03%, #001D72 262.8%);    
-    --text-primary-color: #FFFFFF;
-    --text-secondary-color: #8C8C8C;
-    --font-size: 16px;
-    --button-background-color: #2B8BAE;
-    --button-hover-background-color: #59C2E8;
+    --background-color: #EBEFEF;
+    --background-color-hero:linear-gradient(284deg, #1C3787 -13.12%, #070D21 127.28%);
+    --text-primary-color: #fff;
     --text-attention-color: #59C2E8;
-    --font-primary: "Inter", sans-serif;
-    --brackground-card-why: linear-gradient(114deg, #00030C 6.25%, #001D72 295.15%);
-    --background-card-technologies: linear-gradient(180deg, #10101E 0%, #292A36 100%);
+    --text-attention-color-secondary: #2B8BAE;
+    --button-color: #2B8BAE;
+    --font-primary: "Montserrat", sans-serif;
+    --font-secondary: "Nunito", sans-serif;
+    --text-black-primary: #050505;
+    --text-black-secondary: #1C1C1C;
 }
 
 body{
-    background: var(--background-color);
-    background-repeat: no-repeat;
+    background-color: var(--background-color);
     color: var(--text-primary-color);
-    font-size: var(--font-size);
-    font-family: var(--font-primary); 
+    font-family: var(--font-primary);
+    font-weight: 400;
 }
+
+main{
+    background: var(--background-color-hero);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about{
+    background: #EBEFEF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+

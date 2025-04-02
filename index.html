@@ -3,77 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KPI Solutions</title>
+    <title>KPI Solutions - Business Intelligence</title>
     <link rel="stylesheet" href="/styles/reset.css">
     <link rel="stylesheet" href="/styles/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="header">
-        <img class="header-logo" src="/assets/logo.svg" alt="">
-        <a class="button header-button" href="#">Contato</a>
+    <nav>
+        <header class="header">
+            <img class="header-logo" src="assets/logo.svg" alt="Logo da KPI Solutions">
+            <div class="header-menu">
+                <a class="header-menu-itens" href="">Business Intelligence</a>
+                <a class="header-menu-itens" href="">Tecnologia e Ferramentas</a>
+                <a class="header-menu-itens" href="">Projetos</a>
+            </div>
+            <a class="header-contact" href="">Contato</a>
+        </header>
     </nav>
-    <section class="hero">
-        <img class="hero-image" src="/assets/dashboard.svg" alt="Imagem ilustrativa de BI">
-        <div class="hero-text">
-            <h1 class="hero-title">Transforme dados em <span class="attention">decisões inteligentes</span></h1>
-            <p class="hero-description">Na era da informação, ter dados não basta — é preciso interpretá-los com   agilidade e precisão. Nossa empresa é especializada em soluções de Business Intelligence, integrando diferentes fontes de dados por meio de processos de ETL eficientes e entregando dashboards interativos com Power BI</p>
-            <a class="button hero-button" href="#">Fale com um Especialista</a>
-            <a class="button hero-button hero-button-transparent" href="#">Explore os Projetos</a>
-        </div>
-    </section>
-    <section class="why">
-        <h2 class="why-title">Por que escolher a <span class="attention">KPI</span> Solutions</h2>
-        <p class="why-description">Menos achismo, mais estratégia com BI de verdade</p>
-        <ul class="why-list">
-            <li class="why-cards">
-                <img class="why-card-icon" src="/assets/decisoes.svg" alt="">
-                <h3 class="why-card-title">Decisões</h3>
-                <p class="why-card-description">Integramos dados de diferentes fontes, garantindo uma visão completa e precisa.</p>
-            </li>
-            <li class="why-cards">
-                <img class="why-card-icon" src="/assets/tempo.svg" alt="">
-                <h3 class="why-card-title">Tempo</h3>
-                <p class="why-card-description">Integramos dados de diferentes fontes, garantindo uma visão completa e precisa.</p>
-            </li>
-            <li class="why-cards">
-                <img class="why-card-icon" src="/assets/mobilidade.svg" alt="">
-                <h3 class="why-card-title">Mobilidade</h3>
-                <p class="why-card-description">Integramos dados de diferentes fontes, garantindo uma visão completa e precisa.</p>
-            </li>
-            <li class="why-cards">
-                <img class="why-card-icon" src="/assets/seguranca.svg" alt="">
-                <h3 class="why-card-title">Segurança</h3>
-                <p class="why-card-description">Integramos dados de diferentes fontes, garantindo uma visão completa e precisa.</p>
-            </li>
-        </ul>
-    </section>
-    <section class="bi">
-        <h2 class="bi-title">Conectando Você ao Futuro dos Negócios</h2>
-        <img class="bi-image" src="/assets/dashboards.svg" alt="Imagem ilustrativa de BI">
-        <p class="bi-description"><p class="break">O Business Intelligence (BI) desempenha um papel fundamental no desenvolvimento dos negócios modernos, capacitando empresas a tomar decisões mais informadas e estratégicas. Ao coletar, analisar e interpretar dados de diversas fontes, o BI oferece insights valiosos que impulsionam o crescimento e a eficiência operacional.</p>
-
-            <p class="break">Primeiramente, o BI permite que as organizações compreendam melhor seu próprio desempenho por meio de análises de KPIs, vendas, operações e outras métricas-chave. Essa compreensão aprofundada ajuda a identificar áreas de melhoria e oportunidades de crescimento.</p>
-            
-            <p class="break">Além disso, o BI capacita os tomadores de decisão a prever tendências e antecipar mudanças no mercado. Isso é essencial para ajustar estratégias e permanecer competitivo em um ambiente empresarial em constante evolução.</p></p>
-    </section>
-    <section class="presentation">
-        <div class="presentation-content">
-            <h2 class="presentation-title">Tudo o que importa, em um só lugar</h2>
-            <img class="presentation-image" src="assets/dashboard.svg" alt="">
-            <a class="button presentation-button" href="#">Garanta seu lugar a mesa</a>
-        </div>
-    </section>
-    <section class="technologies">
-        <h2 class="technologies-title">Tecnologias e Ferramentas</h2>
-        <p class="technologies-description">Nossos profissionais são capacitados e especializados nas ferramentas mais modernas de Business Intelligence e desenvolvimento No Code</p>
-        <ul class="technologies-list">
-            <li class="technologies-item"><img src="assets/powerbi.svg" alt=""></li>
-            <li class="technologies-item"><img src="assets/reportbuilder.svg" alt=""></li>
-            <li class="technologies-item"><img src="assets/sqlserver.svg" alt=""></li>
-            <li class="technologies-item"><img src="assets/powerapps.svg" alt=""></li>
-            <li class="technologies-item"><img src="assets/bubble.svg" alt=""></li>
-        </ul>
-    </section>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Transformando dados em <span class="attention">decisões inteligentes</span></h1>
+                <p class="hero-text">Na era da informação, ter dados não basta — é preciso interpretá-los com agilidade e precisão. Nossa empresa é especializada em soluções de Business Intelligence, integrando diferentes fontes de dados por meio de processos de ETL eficientes e entregando dashboards interativos com Power BI</p>
+                <a class="button button-primary" href="#">Fale com um Especialista</a>
+                <a class="button button-secondary" href="#">Explore os Projetos</a>
+            </div>
+            <img class="hero-image" src="assets/dashboard.svg" alt="Dashboard de Vendas">
+        </section>
+        <section class="about">
+            <div class="about-inside">
+                <h2 class="about-title">Entendendo o <span class="attention-secondary">Business Intelligence</span></h2>
+                <p class="about-text">Business Intelligence é o conjunto de tecnologias e processos que transformam dados brutos em informações significativas. Na KPI Solutions, elevamos esse conceito para oferecer insights que impulsionam resultados concretos para o seu negócio.</p>
+                <ul class="about-list">
+                    <li class="about-list-item">
+                        <img src="assets/database.svg" alt="">
+                        <h3>Integração de dados</h3>
+                        <p>Conectamos todas as suas fontes de dados em um único local para uma visão unificada do seu negócio.</p>
+                    </li>
+                    <li class="about-list-item">
+                        <img src="assets/database.svg" alt="">
+                        <h3>Análise avançada</h3>
+                        <p>Utilizamos algoritmos avançados para identificar padrões e tendências que impulsionam seu crescimento.</p>
+                    </li>
+                    <li class="about-list-item">
+                        <img src="assets/database.svg" alt="">
+                        <h3>Dashboards personalizados</h3>
+                        <p>Criamos painéis interativos adaptados às necessidades específicas da sua empresa e objetivos estratégicos.</p>
+                    </li>
+                    <li class="about-list-item">
+                        <img src="assets/database.svg" alt="">
+                        <h3>Tomada de decisão</h3>
+                        <p>Capacitamos sua equipe com insights claros que facilitam decisões estratégicas baseadas em dados.</p>
+                    </li>
+                </ul>
+                <div class="card-benefits">
+                    <div class="card-content">
+                        <h2 class="card-title">Por que investir em Business Intelligence?</h2>
+                        <ul class="card-list">
+                            <li class="card-item">
+                                <img src="assets/check.svg" alt="">
+                                <p>Aumento de até 33% na eficiência operacional</p>
+                            </li>
+                            <li class="card-item">
+                                <img src="assets/check.svg" alt="">
+                                <p>Redução de 25% no tempo de tomada de decisão</p>
+                            </li>
+                            <li class="card-item">
+                                <img src="assets/check.svg" alt="">
+                                <p>Visão unificada de todas as áreas do negócio</p>
+                            </li>
+                            <li class="card-item">
+                                <img src="assets/check.svg" alt="">
+                                <p>Identificação precisa de oportunidades de crescimento</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <img class="card-image" src="assets/notebook.svg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

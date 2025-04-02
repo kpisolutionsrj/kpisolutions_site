@@ -1,39 +1,60 @@
 .hero {
-    height: calc(100vh - 60px);
-    padding: 0 2em;
-    text-align: center;
-    margin-top: 60px;
+    height: calc(100vh - 92px);
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    padding: 0 8em;
+    max-width: 1400px;
+    flex-wrap: wrap; /* Permite que os elementos se ajustem em múltiplas linhas */
+    gap: 2em; /* Espaçamento entre os elementos */
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 92px;
 }
-.hero-image{
-    margin-top: 1em;
-    width: 100%;
+.hero-content{
+    flex: 1;
 }
-.hero-text{
-    display: flex;
-    flex-direction: column;
-}
-.hero-title{
-    font-size: 32px;
+.hero-title {
+    font-size: 3rem; /* Ajusta o tamanho da fonte para evitar sobreposição */
     font-weight: 700;
-    margin: 0.5em 0;
+    overflow-wrap: break-word;
 }
-.attention{
+
+.attention {
     color: var(--text-attention-color);
 }
-.hero-description{
-    font-size: 1em;
-    margin: 0.5em 0;
-    color: var(--text-secondary-color);
-    line-height: normal;
+
+.hero-image {
+    width: 50%;
+    max-width: 100%; /* Garante que a imagem não ultrapasse o espaço disponível */
+    flex: 1
 }
-.hero-button{
-    margin-top: 0.8em;
-    padding: 1em 2em;
+
+.hero-text {
+    font-weight: 400;
+    font-family: var(--font-secondary);
+    margin: 2em 0 3em 0;
+    line-height: 26px;
+    font-family: var(--font-secondary);
 }
-.hero-button-transparent{
-    background: transparent;
-    border: solid 1px var(--text-primary-color);
+
+.button{
+   text-decoration: none;
+   padding: 1em 2em;
+   border-radius: 10px; 
+}
+.button-primary{
+    background-color: #fff;
+    color: #2B8BAE;
+    font-weight: 700;
+}
+.button-secondary{
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #2B8BAE;
+    margin-left: 10px;
+}
+
+.button:hover{
+    background-color: #2B8BAE;
+    color: #fff;
 }
