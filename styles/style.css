@@ -14,27 +14,3 @@
     --text-black-secondary: #1C1C1C;
 }
 
-body{
-    background-color: var(--background-color);
-    color: var(--text-primary-color);
-    font-family: var(--font-primary);
-    font-weight: 400;
-}
-
-main{
-    background: var(--background-color-hero);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.about{
-    background: #EBEFEF;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
